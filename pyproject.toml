@@ -1,0 +1,15 @@
+# pre-commit pip-installs this repository to run its hooks, which installs gglint.
+[project]
+name = "gglint-pre-commit"
+version = "0.5.0"
+description = "gglint's hooks for pre-commit"
+dependencies = ["gglint==0.5.0"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+# Nothing of its own to install.
+[tool.setuptools]
+packages = []
+py-modules = []
