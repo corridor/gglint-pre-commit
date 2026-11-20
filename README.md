@@ -1,0 +1,1 @@
+# gglint-pre-commit
