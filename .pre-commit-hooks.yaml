@@ -1,6 +1,6 @@
 # gglint's hooks for pre-commit (https://pre-commit.com), from
-# https://github.com/corridor/gglint/blob/v0.5.0/.pre-commit-hooks.yaml
-# pre-commit installs gglint 0.5.0 from PyPI to run them. Written by pre-commit/build.py.
+# https://github.com/corridor/gglint/blob/v0.5.1/.pre-commit-hooks.yaml
+# pre-commit installs gglint 0.5.1 from PyPI to run them. Written by pre-commit/build.py.
 
 - id: gglint-secrets
   name: gglint secrets

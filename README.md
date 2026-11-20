@@ -9,7 +9,7 @@ config or instruction files of a coding agent, such as `.mcp.json`, `.cursor/mcp
 # .pre-commit-config.yaml
 repos:
   - repo: https://github.com/corridor/gglint-pre-commit
-    rev: v0.5.0
+    rev: v0.5.1
     hooks:
       - id: gglint-secrets
       # Also check that every agent gets the same MCP servers:
